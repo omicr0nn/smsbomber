@@ -1,0 +1,405 @@
+[
+    {
+        "name": "Kigili",
+        "uri": "https://www.kigili.com/users/registration/",
+        "response": {
+            "success": 202,
+            "error": 400
+        },
+        "form": {
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "email": "{email}",
+            "phone": "0{phone}",
+            "password": "JFQSDHBKJKDLQSHKDJSQHJKDJSKQ",
+            "confirm": "true",
+            "kvkk": "true",
+            "next": ""
+        }
+    },
+    {
+        "name": "KahveDunyasi",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://core.kahvedunyasi.com/api/users/sms/send",
+        "form": {
+            "mobile_number": "{phone}",
+            "token_type": "register_token"
+        }
+    },
+    {
+        "name": "naosstars",
+        "uri": "https://shop.naosstars.com/users/register",
+        "response": {
+            "success": 202,
+            "error": 400
+        },
+        "form": {
+            "email": "{email}",
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "password": "CB2sqdkhqsdqs",
+            "date_of_birth": "1999-01-01",
+            "phone": "0{phone}",
+            "gender": "male",
+            "kvkk":"true",
+            "contact": "true",
+            "confirm": "true"
+        }
+    },
+    {
+        "name": "wmf",
+        "uri": "https://www.wmf.com.tr/users/register/",
+        "response": {
+            "success": 202,
+            "error": 400
+        },
+        "form": {
+            "email": "{email}",
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "email_allowed": "true",
+            "confirm": "true",
+            "date_of_birth":"1999-03-01",
+            "gender": "male",
+            "password": "CB2sqdkhqsdqs",
+            "phone": "0{phone}" 
+        }
+    },
+    {
+        "name": "bim",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://bim.veesk.net:443/service/v1.0/account/login",
+        "form": {
+            "phone": "0{phone}"
+        }
+    },
+    {
+        "name": "Şok",
+        "status": "disable",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://api.ceptesok.com:443/api/users/sendsms",
+        "form": {
+            "mobile_number": "{phone}",
+            "token_type": "register_token"
+        }
+    },
+    {
+        "name": "migros",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://rest.migros.com.tr:443/sanalmarket/users/login/otp",
+        "form": {
+            "phoneNumber": "{phone}"
+        }
+    },
+    {
+        "name": "a101",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://www.a101.com.tr:443/users/otp-login/",
+        "form": {
+            "phone": "0{phone}",
+            "next": "/a101-kapida"
+        }
+    },
+    {
+        "name": "englishhome",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://www.englishhome.com:443/enh_app/users/registration/",
+        "form": {
+            "email": "{email}",
+            "first_name": "{first_name}",
+            "last_name": "{last_name}",
+            "email_allowed": "true",
+            "sms_allowed": "true",
+            "tom_pay_allowed": "true",
+            "confirm": "true",
+            "password": "CB2sqdkhqsdqs",
+            "phone": "0{phone}" 
+        }   
+    },
+    {
+        "name": "sakasu",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://www.sakasu.com.tr:443/app/api_register/step1",
+        "form": {
+            "phone": "0{phone}"
+        }
+    },
+    {
+        "name": "Istegelsin",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://prod.fasapi.net:443/",
+        "form": {
+            "operationName": "SendOtp2", 
+            "query": "mutation SendOtp2($phoneNumber: String!) {\n  sendOtp2(phoneNumber: $phoneNumber) {\n    __typename\n    alreadySent\n    remainingTime\n  }\n}",
+            "variables": {
+                "phoneNumber": "90{phone}"
+            }
+        }
+    },
+    {
+        "name": "Rentiva",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://rentiva.com:443/api/Account/Login",
+        "form": {
+            "appleId": null, 
+            "code": "", 
+            "email": "",
+            "facebookId": null, 
+            "googleId": null, 
+            "lastName": "", 
+            "name": "", 
+            "phone": "0{phone}", 
+            "type": 1
+        }
+    },
+    {
+        "name": "Superpedestrian",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://consumer-auth.linkfleet.de:443/consumer_auth/register",
+        "form": {
+            "phone_number": "+90{phone}"
+        }
+    },
+    {
+        "name": "Dgn Online",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://odeme.dgnonline.com:443/index.php?route=ajax/smsconfirm&type=send&ajax=1",
+        "form": {
+            "loginIdentityNumber": "00000000000",
+            "loginMobileNumber": "{phone}"
+        }
+    },
+    {
+        "name": "Icq",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://u.icq.net:443/api/v92/rapi/auth/sendCode",
+        "form": {
+            "params": {
+                "application": "icq", 
+                "devId": "ic1rtwz1s1Hj1O0r", 
+                "language": "en-US", 
+                "phone": "90{phone}", 
+                "route": "sms"
+            }, 
+            "reqId": "25299-1669396271"
+        }
+    },
+    {
+        "name": "Suiste",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://suiste.com:443/api/auth/code",
+        "form": {
+            "action": "register",
+            "gsm": "{phone}"
+        }
+    },
+    {
+        "name": "Hayat Su",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://www.hayatsu.com.tr/SignUp/SendOtp",
+        "form": {
+            "mobilePhoneNumber": "{phone}",
+            "recaptchaStatus": true
+        }
+    },
+    {
+        "name": "Pişir",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://api.pisir.com:443/v1/login/",
+        "form": {
+            "app_build": "343", 
+            "app_platform": "ios", 
+            "msisdn": "{phone}"
+        }
+    },
+    {
+        "name": "KimGbIster",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://3uptzlakwi.execute-api.eu-west-1.amazonaws.com:443/api/auth/send-otp",
+        "form": {
+            "msisdn": "90{phone}"
+        }
+    },
+    {
+        "name": "Terra Pizza",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://api.terrapizza.com.tr:443/api/v1/customers",
+        "form": {
+            "email": "{email}", 
+            "emailPermitted": true, 
+            "kvkApproved": true, 
+            "name": "{first_name}", 
+            "phone": "{phone}", 
+            "smsPermitted": true, 
+            "surname": "{last_name}",
+            "userAgreementApproved": true
+        }
+    },
+    {
+        "name": "Ipragaz",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://ipapp.ipragaz.com.tr:443/ipragazmobile/v2/ipragaz-b2c/ipragaz-customer/mobile-register-otp",
+        "form": {
+            "birthDate": "06/03/1993", 
+            "carPlate": "31 ABC 31", 
+            "name": "{full_name}", 
+            "otp": "", 
+            "phoneNumber": "{phone}", 
+            "playerId": ""
+        }
+    },
+    {
+        "name": "Mogaz",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://mogazmobilapinew.aygaz.com.tr:443/api/Member/UserRegister",
+        "form": {
+            "address": "", 
+            "birthDate": "06-02-1975", 
+            "city": 0, 
+            "deviceCode": "839C5FAF-A7C1-2CDA--6F5414AD2228", 
+            "district": 0, 
+            "email": "{email}", 
+            "isUserAgreement": true, 
+            "name": "{first_name}", 
+            "password": "", 
+            "phone": "{phone}", 
+            "productType": 1, 
+            "subscription": true, 
+            "surname": "{last_name}"
+        }
+    },
+    {
+        "name": "Go Yakıt",
+        "method": "GET",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://gomobilapp.ipragaz.com.tr:443/api/v1/0/authentication/sms/send?phone={phone}&isRegistered=true"
+    },
+    {
+        "name": "Opet",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://api.opet.com.tr:443/api/authentication/register",
+        "form": {
+            "abroadcompanies": ["1", "2", "3"], 
+            "birthdate": "1973-02-06T04:17:00.000Z", 
+            "cardNo": null,
+            "commencisRadio": "true", 
+            "email": "{email}", 
+            "firstName": "{first_name}", 
+            "googleRadio": "true", 
+            "lastName": "{last_name}", 
+            "microsoftRadio": "true",
+            "mobilePhone": "{phone}", 
+            "opetKvkkAndEtk": true, 
+            "plate": "31ABC31"
+        }
+    },
+    {
+        "name": "HeyMobility",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://heyapi.heymobility.tech:443/V9//api/User/ActivationCodeRequest?organizationId=9DCA312E-18C8-4DAE-AE65-01FEAD558739&phonenumber={phone}",
+        "form": {}
+    },
+    {
+        "name": "Tazi",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://mobileapiv2.tazi.tech:443/C08467681C6844CFA6DA240D51C8AA8C/uyev2/smslogin",
+        "form": {
+            "cep_tel": "{phone}", 
+            "cep_tel_ulkekod": "90"
+        }
+    },
+    {
+        "name": "Gofody",
+        "response": {
+            "success": 200,
+            "error": 400
+        },
+        "uri": "https://backend.gofody.com:443/api/v1/enduser/register/",
+        "form": {
+            "country_code": "90", 
+            "phone": "{phone}"
+        }
+    },
+    {
+        "name":"Martı",
+        "response":{
+            "success":200,
+            "error":400
+        },
+        "uri": "https://customer.martiscooter.com:443/v13/scooter/dispatch/customer/signin",
+        "form": {
+            "mobilePhone": "{phone}", 
+            "mobilePhoneCountryCode": "90", 
+            "oneSignalId": ""
+        }
+    }
+]
