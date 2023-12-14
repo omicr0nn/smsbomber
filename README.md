@@ -31,7 +31,7 @@ npm install axios socks-proxy-agent @faker-js/faker chalk
 node index.js
 ```
 
-![Kali](https://i.hizliresim.com/2ogsk88.png)
+![Kali]()
 
 ## Dependencies
 
