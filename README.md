@@ -31,14 +31,10 @@ npm install axios socks-proxy-agent @faker-js/faker chalk
 node index.js
 ```
 
+Also click to use in replit
+<p align="left"><a href="[https://replit.com/@omicr0n/slowsmsbomber](https://replit.com/@omicr0n/FastSmsBomber)"><img src="https://skillicons.dev/icons?i=replit"></a></p>
+
 ![Kali](https://github.com/omicr0nn/smsbomber/blob/main/fsmsbomb.png)
-
-## Dependencies
-
-- reading line synchronization
-- colors
-- kli-color
-- clear
 
 ## Disclaimer
 
