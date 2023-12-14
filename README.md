@@ -31,7 +31,7 @@ npm install axios socks-proxy-agent @faker-js/faker chalk
 node index.js
 ```
 
-![Kali]()
+![Kali](https://github.com/omicr0nn/smsbomber/blob/main/fsmsbomb.png)
 
 ## Dependencies
 
